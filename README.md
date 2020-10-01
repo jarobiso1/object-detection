@@ -4,7 +4,7 @@ Steps for running:
 1) Install requirements by running...
 	pip install -r requirements.txt
 	
-2) Downloading the yolov4 model from https://ibm.ent.box.com/folder/122722273224?s=2dcij8tsllc43em0ukf37ykkfpw6ilym and adding it to the checkpoints folder
+2) Downloading the yolov4 model (tflite version) from https://ibm.ent.box.com/folder/122722273224?s=2dcij8tsllc43em0ukf37ykkfpw6ilym and adding it to the checkpoints folder
 
 3) Run the following python script to demo detection on images in the folder .data/images
 	python detect_jr.py --weights ./checkpoints/yolov4-416.tflite --size 416 --model yolov4 --image ./data/images --framework tflite
