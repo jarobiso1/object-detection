@@ -1,0 +1,5 @@
+##Excluded Packages
+.git
+.DS_Store
+venv
+checkpoints/yolov4-416.tflite
